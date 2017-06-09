@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="signalprocess.facecapture.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pku"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!--<com.jetradarmobile.snowfall.SnowfallView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:layout_constraintStart_toStartOf="@id/root_layout"-->
+        <!--app:snowflakesNum="250"-->
+        <!--app:snowflakeAlphaMin="150"-->
+        <!--app:snowflakeAlphaMax="255"-->
+        <!--app:snowflakeAngleMax="5"-->
+        <!--app:snowflakeSizeMin="8dp"-->
+        <!--app:snowflakeSizeMax="32dp"-->
+        <!--app:snowflakeSpeedMin="4"-->
+        <!--app:snowflakeSpeedMax="12"-->
+        <!--app:snowflakesFadingEnabled="true"-->
+        <!--app:snowflakesAlreadyFalling="false"-->
+        <!--app:snowflakeImage="@drawable/pku"/>-->
+
+    <Button
+        android:id="@+id/cam_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textColor="#7AD3E0"
+        android:text="Open Camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

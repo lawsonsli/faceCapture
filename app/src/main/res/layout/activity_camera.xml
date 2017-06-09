@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#000"
+             tools:context="signalprocess.facecapture.CameraActivity">
+    <signalprocess.facecapture.CameraPreview
+        android:id="@+id/cam_preview"
+        android:layout_width="480px"
+        android:layout_height="320px" />
+    <!--<signalprocess.facecapture.Live2dGLSurfaceView-->
+        <!--android:id="@+id/live2d_gl"-->
+        <!--android:layout_width="800dp"-->
+        <!--android:layout_height="600dp" />-->
+</RelativeLayout>
